@@ -1,0 +1,7 @@
+{
+  "name": "KidsWord - English Play & Learn",
+  "description": "A fun, interactive English learning tool for kids that helps them build sentences from known words and visualizes scenarios using AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
