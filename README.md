@@ -2,19 +2,31 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# KidsWord AI - 英语学习助手
 
-This contains everything you need to run your app locally.
+一个为儿童设计的 AI 英语学习应用。输入几个单词，AI 自动生成趣味句子、Pixar 风格场景图，并朗读句子。
+帮助孩子更多元化地理解一个单词的使用场景，帮助记忆。
 
-View your app in AI Studio: https://ai.studio/apps/drive/18geHM6BYiL5xXDJNsNki3Z-kxazwPSQ3
+## ✨ 功能特点
 
-## Run Locally
+- 🤖 **AI 造句**：使用 DeepSeek API，根据输入单词生成简单有趣的英文句子
+- 🎨 **AI 配图**：使用QWEN API 生成 Pixar 风格的场景图片
+- 🔊 **语音朗读**：浏览器原生语音合成，纯正美式发音
+- 📚 **单词本**：收藏学过的单词，记录使用次数
+- 💡 **智能推荐**：根据已学单词推荐下一步学习的词汇
 
-**Prerequisites:**  Node.js
+## 🛠️ 技术栈
 
+- React 18 + TypeScript
+- Vite
+- TailwindCSS
+- DeepSeek API（文本生成）
+- QWEN API（图片生成）
+- Web Speech API（语音合成）
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 本地运行
+
+1. 克隆项目
+```bash
+git clone https://github.com/Ssalome-yanzhu/kidsword-ai-app.git
+cd kidsword-ai-app
